@@ -62,7 +62,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "API Testing",
-      fontAwesomeClassname: "fab fa-APITEsting"
+      fontAwesomeClassname: "fab fa-APITEsting" 
     },
     {
       skillName: "Cucumber",
