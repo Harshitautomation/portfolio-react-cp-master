@@ -76,14 +76,14 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "Sardar Vallabhbhai Institute of Technology",
       logo: require("./assets/images/svit.png"),
       subHeader: "Bachelor in Electronics & Communication",
       duration: "July 2009 - June 2013",
-      desc: "Involved in Organizing Tech Fest Event. ",
+    //  desc: "Involved in Organizing Tech Fest Event. ",
     //  descBullets: [
     //    "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
     //  ]
@@ -107,15 +107,23 @@ const techStack = {
   experience: [
     {
       Stack: "Selenium with Java", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "85%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Cucumber(BDD)",
-      progressPercentage: "70%"
+      progressPercentage: "75%"
     },
     {
       Stack: "API Testing",
       progressPercentage: "70%"
+    },
+    {
+      Stack: "Agile Methodology",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "GIT/MAVEN/JENKINS",
+      progressPercentage: "60%"
     }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -209,43 +217,26 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "AWS Solution Architect Associate Certified",
+      image: require("./assets/images/aws.png"),
       footerLink: [
         {
           name: "Certification",
-          url:
-            ""
-        },
-        {
-          name: "Award Letter",
-          url:
-            ""
-        },
-        {
-          name: "Google Code-in Blog",
-          url:
-            ""
+          Expires: "April 2024",
         }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      title: "Oracle CLoud Infrastructure Associate",
+      image: require("./assets/images/oracle.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url:
-            ""
+          name: "Certification",
         }
       ]
     },
 
-    {
+  /*  {
       title: "PWA Web App Developer",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
@@ -256,9 +247,9 @@ const achievementSection = {
           url: ""
         }
       ]
-    }
+    } */
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
